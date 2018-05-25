@@ -6,7 +6,7 @@ scalaVersion := "2.11.8"
 
 val akkaV = "2.3.9"
 val sprayV = "1.3.3"
-val jacksonV = "2.4.1"
+val jacksonV = "2.7.2"
 
 libraryDependencies ++= Seq(
   "io.spray" %% "spray-can" % sprayV

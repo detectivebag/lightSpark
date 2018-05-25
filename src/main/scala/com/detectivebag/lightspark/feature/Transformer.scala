@@ -30,7 +30,7 @@ object Transformer {
     map
   }
 
-  def featurization(raw: collection.mutable.Map[String, String], arrayLength: Int = Math.pow(2, 8).toInt) = {
+  def toFeature(raw: collection.mutable.Map[String, String], arrayLength: Int = Math.pow(2, 8).toInt): Array[Double] = {
     val arr = Array.fill[Double](arrayLength)(0)
 
     raw.foreach(
