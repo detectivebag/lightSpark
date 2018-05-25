@@ -9,7 +9,8 @@ val sprayV = "1.3.3"
 val jacksonV = "2.7.2"
 
 libraryDependencies ++= Seq(
-  "io.spray" %% "spray-can" % sprayV
+  "org.mybatis" % "mybatis" % "3.4.6"
+  ,"io.spray" %% "spray-can" % sprayV
   , "io.spray" %% "spray-routing" % sprayV
   , "com.typesafe.akka" %% "akka-actor" % akkaV
   , "ch.qos.logback" % "logback-classic" % "1.1.3"
